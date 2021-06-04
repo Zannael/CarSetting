@@ -1,0 +1,242 @@
+.head-banner{
+    background-color:#48b7d9d1;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    background-image: url("../images/home.png");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+	display: block;
+	justify-content: center;
+	
+}
+.sezione-brand{
+	padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.sezione-icone{
+    background-color: rgba(245, 245, 245, 0.952) !important;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+   
+}
+.color--primary {
+    color: #0083c2;
+}
+.sezione-login{
+	background-color: #f7f9fa !important;
+	padding-bottom: 15%;
+}
+.sezione-finale{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.logo-list {
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+.logo-list img {
+    display: inline-block;
+    max-width: 85%;
+    padding: 15px 0;
+    transition: all 0.3s ease-in-out;
+    -webkit-filter: grayscale(100);
+    -moz-filter: grayscale(100);
+    filter: grayscale(100);
+}
+.logo-list img:hover {
+    filter: none;
+    transform: scale(1.2);
+    -webkit-filter: none;
+    -moz-filter: none;
+}
+.logo-list input {
+    display: inline-block;
+    max-width: 85%;
+    padding: 15px 0;
+    transition: all 0.3s ease-in-out;
+    -webkit-filter: grayscale(100);
+    -moz-filter: grayscale(100);
+    filter: grayscale(100);
+}
+.logo-list input:hover {
+    filter: none;
+    transform: scale(1.2);
+    -webkit-filter: none;
+    -moz-filter: none;
+}
+
+.model{
+	transform: scale(0.7);
+}
+.fiesta, .zoom-in, .pictres{
+	width:100%;
+	height:auto;   
+}
+
+.zoom-in{
+	cursor: zoom-in;
+}
+
+.sezione-funzionamento{
+  
+    padding-top: 2rem;
+
+}
+footer{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.my-row{
+    display: flex;
+    justify-content: space-around;
+	
+}
+
+.form-select-bg-size{
+	width: 300px;
+}
+.btn-filter{
+
+	text-align: center;
+}
+
+.myBtn {
+  display: none; 
+  position: fixed;
+  bottom: 20px; 
+  right: 30px; 
+  z-index: 99; 
+  border: none; 
+  outline: none;
+  background-color: #0d6efd;
+  color: white; 
+  cursor: pointer; 
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 18px; 
+}
+
+.myBtn:hover {
+  background-color: #555;
+}
+
+
+.menu {
+	height:13px;
+	margin:0px 20px;}
+.menu img{
+	max-width:100%;
+	max-height:100%;}
+.left{
+	display:flex;
+	float:left;
+	align-items:center;}
+.left select{
+	margin:0px;
+	outline:none;
+	padding:13px 8px;
+	background-color:rgba(235,235,235,0.6);
+	font-size:11px;
+	font-weight:700;
+	border:none;}
+.right{
+	float:right;
+	padding:10px 20px;
+	background-color:#f44c52;
+	border-radius:10px;}
+.right a{
+	color:#fcfcfc;
+	font-weight:bold;
+	font-size:12px;}
+.logo{
+	display:flex;
+	justify-content:center;}
+.logo img{
+	height:40px;
+	}
+.content-container{
+	position:relative;
+	display:flex;
+	align-items:center;
+	flex-direction:row-reverse;
+	justify-content:flex-end;
+    margin:80px;}
+.img-container{
+	height:450px;
+	width:1027;
+	display:flex;
+	align-items:center;}
+.img-container img{
+											
+	max-height:100%;
+    max-width:100%;
+}
+.text-container{
+	display:flex;
+	margin-right:auto;
+	flex-direction:column;
+	flex-wrap:wrap;
+	width:600px;}
+.price{
+	color:#000000;
+	font-size:40px;
+	font-family:bebas kai;
+	text-shadow:2px 2px 12px rgba(128,128,128,0.3);}
+.cart{
+	margin-top:10px;
+	position:absolute;
+	bottom:0px;}
+.cart select{
+	padding:13px 35px;
+	border:1px solid rgba(176,176,176,1.00);
+	outline:none;}
+.cart a{
+		color:#FFFFFF;
+		background-color:#f44e52;
+		text-decoration:none;
+		text-shadow:0px 2px 12px rgba(0,0,0,0.3);
+		padding:15px;
+		width:200px;
+		height:50px;
+		font-weight:200;
+		margin-left:20px;
+		border-radius:5px;}
+								
+								
+.center{
+			position:absolute;
+			top:50%;
+			left:50%;
+			transform:translate(-50%,-50%);
+			width:800px;}
+.center img{
+				display:flex;
+				margin:auto;}					
+								
+.modal{
+						display:none;
+						position:fixed;
+						z-index:1;
+						left:0;
+						top:0;
+						width:100%;
+						height:100%;
+						overflow:auto;
+						background-color:rgba(0,0,0,0.4);}			
+								
+.close{
+						font-size:35px;
+						font-weight:bold;}
+						.close:hover,.close:focus{
+							color:red;
+							cursor:pointer;}	
+								
+@media screen and (min-width: 768px){
+    .head-banner{
+        padding-top: 12rem;
+        padding-bottom: 12rem;
+    }
+}

@@ -1,0 +1,36 @@
+.auto-search-btn{
+    width: 100%;
+}
+.search-form-row{
+    margin-top: 20px;
+    background-color: #003663;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    width: auto;
+    border-radius: 10px;
+}
+
+h1{
+    margin-bottom: 2rem;
+  
+}
+
+.search-pic-result{
+    width: 100%;
+}
+
+.discover-btn{
+    float: right;
+    margin-bottom: 5px;
+}
+
+.card-text{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.checked{
+    color: orange;
+}

@@ -1,0 +1,12 @@
+.fa-star{
+    cursor: pointer;
+}
+
+.checked{
+    color: orange;
+}
+
+.rating-col {
+    align-self: center;
+    cursor: pointer;
+}
